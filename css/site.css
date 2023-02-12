@@ -18,7 +18,7 @@ footer{
 }
 
 h1,h2,h3,h4,h5,h6{
-    color: var(--primary-color);
+    color: var(--dark-color);
 }
 
 footer{
@@ -52,7 +52,7 @@ footer .social>a :hover{
 }
 
 .checklist >li i{
-    color: var(--primary-color);
+    color: var(--dark-color);
 }
 
 code[class*="language-"],
@@ -61,6 +61,12 @@ code[class*="language-"],
             word-break: break-all;
             word-wrap: break-word;
         }
+
+.logoFont {
+    font-family: 'Anton', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Righteous', cursive;
+}
 
 main>.container {
     padding: 60px 15px 0;
