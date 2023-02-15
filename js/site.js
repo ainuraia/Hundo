@@ -7,7 +7,7 @@ function getValues(){
     let startValue = document.getElementById("startValue").value;
     let endValue = document.getElementById("endValue").value;
 
-    alert("The Start value:" + startValue) ;
+    alert("The Start value:" + startValue);
     //we call generateNumbers
 
 
