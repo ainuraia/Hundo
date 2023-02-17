@@ -8,9 +8,10 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Chrome",
-            "url": "http://127.0.0.1:5500/app.html",
-            "file": "c:\\Users\\Ainura\\OneDrive\\Documents\\GitHub\\Hundo\\site.js"
+            "name": "Launch Chrome against localhost",
+            "url": "http://127.0.0.1:5500/",
+            "file": "c:\\Users\\Ainura\\OneDrive\\Documents\\GitHub\\Hundo\\site.js",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }
