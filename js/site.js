@@ -11,7 +11,10 @@ function getValues(){
     endValue = parseInt(endValue)
 
     if(Number.isInteger(startValue) && Number.isInteger(endValue)) {
-        
+        //we call generateNumbers
+        let numbers = generateNumbers(startValue, endValue);
+    }else{
+        alert("You must enter integers");
     }
 
     alert("The Start value:" + startValue);
