@@ -59,8 +59,8 @@ function displayNumbers(numbers){
             className = "odd";
         }
        
-        templateRows += `&lt;tr>&lt;td class="${className}" >${number}&lt;/td>&lt;/tr>`;
+        templateRows += `<tr><td class="${className}" >${number}</td></tr>`;
     }
 
-    documents.getElementById("results").innerHTML = templateRows;
+    document.getElementById("results").innerHTML = templateRows;
 }
